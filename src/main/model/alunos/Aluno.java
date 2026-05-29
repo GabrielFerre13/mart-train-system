@@ -1,13 +1,15 @@
 package model.alunos;
 
-public class Alunos {
-     String nome;
-     double altura;
-     double peso;
-     String objetivo;
+import model.treinos.Treino;
+
+public class Aluno {
+    private String nome;
+    private double altura;
+    private double peso;
+    private String objetivo;
     private Treino treino;
 
-    public alunos(String nome, double altura, double peso, String objetivo) {
+    public Aluno(String nome, double altura, double peso, String objetivo) {
         this.nome = nome;
         this.altura = altura;
         this.peso = peso;

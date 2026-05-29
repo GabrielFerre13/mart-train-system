@@ -1,6 +1,6 @@
 package util;
 
-public class SaudeService {
+public class SaudeUtil {
 
     public static double calcularImc(double peso, double altura){
         return peso / (altura * altura);
